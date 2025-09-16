@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "biginteger"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "till": {
+      "type": "biginteger"
+    },
+    "transaction": {
+      "type": "string"
+    }
+  }
+}
